@@ -1,0 +1,40 @@
+/* body{
+    background-color: pink;
+}
+
+.dashboard{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+table, td, th{
+    border: 2px solid;
+    border-collapse: collapse;
+    width: 50%;
+    text-align: center;
+    background-color: red;
+    
+}
+th{
+    background-color: yellow;
+    height: 50px;
+    padding: 5px;
+}
+td:hover{
+    background-color: white;
+} */
+
+.button1{
+    background-color: red;
+}
+.center{
+    color: blue;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    background-color: red;
+}
+h1{
+    font-size: 100px;
+}

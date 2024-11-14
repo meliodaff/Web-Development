@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="basics.css">
+    <script src="index.js"></script>
+    <title>Learning js</title>
+</head>
+<body>
+     <form>
+        <input type="number" placeholder="PF101" id = 'pf' pattern="^[0-9]{0,2}$"> 
+        <input type="number" placeholder="CC104" id = 'cc' pattern="^[0-9]{0,2}$"> 
+        <input type="number" placeholder="IM101" id = 'im' pattern="^[0-9]{0,2}$">  
+     </form>
+     <br>
+    <div>
+        <button type="button" onclick="submit()">Submit</button>
+    </div>        
+    <button type="button" onclick="clear1()">Clear</button>
+    <p id="score">Score: 0</p>
+
+</body>
+</html>
