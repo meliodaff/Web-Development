@@ -1,0 +1,62 @@
+button{
+    cursor: pointer;
+}
+.back-button, .next-button{
+    padding: 6.5px 5px;
+    margin-bottom: 15px;
+}
+
+a{
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.stretch{
+    background-color: rgb(5, 90, 5);
+    color: white;
+    border-style: none;
+    padding: 6px 10px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    transition: padding .4s;
+}
+
+.stretch:hover{
+    padding: 12px 20px;
+}
+
+.shadow{
+    background-color: rgb(5, 90, 5);
+    color: white;
+    border-style: none;
+    padding: 6px 10px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    transition: box-shadow .15s;
+}
+
+.shadow:active{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.one, .two, .three{
+    background-color: rgb(5, 90, 5);
+    color: white;
+    border-style: none;
+    padding: 6px 10px;
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: padding .15s,
+                margin .15s;
+
+}
+
+.one:hover, .two:hover, .three:hover{
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+}

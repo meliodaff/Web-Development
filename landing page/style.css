@@ -4,26 +4,36 @@
     display: flex;
     align-items: center;
     margin: 25px 50px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px 40px;
+    border-style: solid;
   }
   
   /* this is class */
-  .blue { color: #4285F4; }
+  .blue { 
+    color: #4285F4; 
+  }
   .red { color: #EA4335; }
   .yellow { color: #FBBC05; }
   .green { color: #34A853; }
   
-  main{
-    display: grid; /* these two are partners */
-    justify-content: center;
-    margin-top: 200px;
-  }
+main{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 50vh;
+  border: solid;
+}
 
-  .main-div{
-    margin: 10px 0; /* Optional: Adds some space between divs */
-    font-family: Arial, sans-serif; 
-    font-size: larger;
+nav{
+  display: flex;
+  justify-content: space-around;
+  border: solid;
+  width: 500px;
 
-  }
+}
 
   /*
 

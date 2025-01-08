@@ -1,0 +1,172 @@
+button{
+    cursor: pointer;
+    margin-left: 12px;
+    margin-bottom: 25px;
+}
+
+
+.uber-button{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 120px;
+    border-style: none;
+    font-size: 13px;
+    transition: opacity .2s;
+}
+.uber-button:hover{
+    opacity: .8;
+}
+
+
+.amazon-button{
+    background-color: rgb(255, 216, 20);
+    height: 40px;
+    width: 200px;
+    border-radius: 25px;
+    border-style: none;
+    font-size: 15px;
+    transition: background-color .15s;
+
+}
+
+.amazon-button:hover{
+    background-color: rgb(246, 207, 14);
+}
+
+.github-button{
+    background-color: rgb(46, 164, 79);
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    height: 40px;
+    width: 100px;
+    transition: box-shadow .15s;
+}
+
+.github-button:hover{
+    box-shadow: 3px 3px 10px black;
+}
+
+.bootstrap{
+    background-color: rgb(121, 82, 179);
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    height: 40px;
+    width: 115px;
+    border-style: none;
+    border-radius: 5px;
+    transition: background-color .15s;
+}
+
+.bootstrap:hover{
+    background-color: rgb(69, 6, 163);
+}
+
+.bootstrap-download{
+    background-color: white;
+    color: rgb(108, 117, 125);
+    border-color: rgb(108, 117, 125);
+    border: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    height: 40px;
+    width: 115px;
+    font-weight: bold;
+    font-size: 14px;
+    transition: background-color .15s,
+                color .15s;
+}
+.bootstrap-download:hover{
+    background-color: rgb(108, 117, 125);
+    color: white;
+}
+
+.linkedin{
+    background-color: rgb(10, 102, 194);
+    color: white;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 50px;
+    font-size: 14px;
+    height: 40px;
+    width: 225px;
+    transition: background-color .15s;
+}
+
+.linkedin:hover{
+    background-color: rgb(3, 82, 161);
+}
+
+.save{
+    background-color: white;
+    color: rgb(10, 102, 194);
+    border-width: 1.5px;
+    border-radius: 50px;
+    border-color: rgb(10, 102, 194);
+    height: 40px;
+    width: 80px;
+    font-weight: bold;
+    font-size: 14px;
+    transition: background-color .15s,
+                color .15s;
+}
+
+.save:hover{
+    background-color: rgb(10, 102, 194);
+    color: white;
+}
+
+a{
+    color: rgb(0, 113, 133);
+    font-size: 16px;
+    text-decoration: none;
+    border-style: solid;
+}
+
+a:hover{
+    box-shadow: 10px 10px 10px black;
+}
+
+.price{
+    color: rgb(0, 118, 0);
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.add-to-cart-button, .buy-now-button{
+    border-style: none;
+    border-radius: 50px;
+    height: 35px;
+    width: 140px;
+    font-size: 14px;
+    margin-left: 0px;
+    margin-right: 8px;
+}
+
+.add-to-cart-button:hover, .buy-now-button:hover{
+    opacity: .8;
+}
+
+.add-to-cart-button:active, .buy-now-button:active{
+    opacity: .6;
+}
+
+
+.add-to-cart-button{
+    background-color: rgb(255, 216, 20);
+}
+
+.buy-now-button{
+    background-color: rgb(255, 164, 28);
+}
+
+.border{
+    border-style: solid;
+}
+.p{
+    border-style: solid;
+}

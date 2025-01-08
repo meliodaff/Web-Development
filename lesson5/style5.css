@@ -1,0 +1,69 @@
+.a5{
+    font-family: Tahoma;
+    font-weight: bold;
+}
+
+.title{
+    font-family: Arial;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.deadline{
+    font-family: Arial;
+    font-style: italic;
+    color: red;
+    margin-top: 3px;
+    font-size: 14px;
+}
+
+.c5{
+    font-family: Verdana;
+}
+
+.header{
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.sub-header{
+    font-size: 13px;
+    margin-top: 3px;
+    color: gray;
+    margin-bottom: 0
+}
+
+.description{
+    font-size: 14px;
+    margin-top: 12px;
+    width: 275px;
+    line-height: 20px;
+}
+
+.d5{
+    font-family: Arial;
+    border: solid;
+    width: 350px;
+    text-align: center;
+    padding-bottom: 15px;
+    line-height: 15px;
+}
+
+.header1{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.sub-header1{
+    font-size: 13px;
+}
+
+.footer{
+    color: blue;
+    font-size: 12px;
+}
+
+.footer:hover{
+    text-decoration: underline;
+}
+
