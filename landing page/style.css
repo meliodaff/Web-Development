@@ -25,15 +25,11 @@ main{
   justify-content: center;
   height: 50vh;
   border: solid;
+  font-size: 20px;
+  line-height: 30px;
 }
 
-nav{
-  display: flex;
-  justify-content: space-around;
-  border: solid;
-  width: 500px;
 
-}
 
   /*
 

@@ -1,0 +1,53 @@
+.name-bar{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.b8{
+    display: inline-block;
+    width: 200px;
+    vertical-align: middle;
+}
+
+.g{
+    color: blue;
+}
+.o{
+    color: red;
+}
+.o1{
+    color: yellow;
+}
+
+.g1{
+    color: blue;
+}
+.l{
+    color: green;
+}
+.e{
+    color: red;
+}
+.p{
+    margin: 0;
+    font-family: Arial;
+    text-align: center;
+    width: 300px;
+}
+
+.google-search-bar{
+    width: 400px;
+    padding: 9px 12px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.google-logo{
+    width: 415px;
+    object-fit: contain;
+    object-position: center;
+    height: 67.5px;
+    display: block;
+    margin-bottom: 7px;
+}

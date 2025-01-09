@@ -1,0 +1,77 @@
+.first-name, .last-name, .email, .sign-up{
+    border-radius: 5px;
+    border: solid 1px;
+    padding: 12px 10px;
+    border-color: gray;
+    font-size: 12px;
+}
+
+.d8{
+    width: 250px;
+    margin-right: 25px;
+    display: inline-block;
+}
+
+
+.first-name{
+    width: 95px;
+    border-radius: 5px;
+}
+
+.last-name{
+    width: 95px;
+}
+
+.email{
+    width: 215px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+.sign-up{
+    width: 235px;
+    background-color: rgb(29, 165, 219);
+    color: white;
+    font-weight: bold;
+    padding: 11px 7px;
+    border: none;
+}
+
+
+.e8{
+    font-family: Arial;
+    display: inline-block;
+}
+
+.header{
+    margin: 0;
+    font-size: 32px;
+    margin-bottom: 15px;
+
+}
+
+.pick-up, .destination{
+    display: block;
+    background-color: rgba(128, 128, 128, 0.06);
+    padding: 11px 11px;
+    width: 290px;
+    border: none;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.request-button, .schedule-button{
+    padding: 13px 15px;
+    border: none;
+    margin-top: 19px;
+    font-size: 13px;
+}
+
+.request-button{
+    margin-right: 10px;
+    background-color: black;
+    color: white;
+}
+
+

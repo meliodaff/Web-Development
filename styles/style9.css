@@ -1,0 +1,148 @@
+.video-preview{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+}
+
+.image-thumbnail{
+    width: 300px;
+    display: block;
+    margin-bottom: 7px;
+}
+
+.image-author{
+    border-radius: 50px;
+    vertical-align: middle;
+    width: 33px;
+}
+
+.video-title{
+    display: inline-block;
+    margin: 0;
+    width: 265px;
+    vertical-align: middle;
+    font-size: 11px;
+    line-height: 18px;
+    font-weight: bold;
+}
+
+.video-author{
+    margin: 0;
+    color: gray;
+    font-size: 9px;
+    margin-left: 38px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    
+}
+
+.video-stats{
+    vertical-align: middle;
+    margin: 0;
+    color: gray;
+    font-size: 9px;
+    margin-left: 38px;
+
+}
+
+
+p{
+    font-family: arial;
+}
+
+.search-bar{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.red-square{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    display: inline-block;
+}
+
+.green-circle{
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    background-color: green;
+}
+
+.c9{
+    margin: 50px;
+    border: solid 1px ;
+    display: inline-block;
+    width: 250px;
+    padding-left: 15px;
+    padding-right: 25px;
+
+}
+
+.question{
+    margin: 0;
+    padding-top: 9px;
+}
+
+.yes-button, .no-button{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.d9{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px 13px;
+}
+
+.install{
+    color: white;
+    font-size: 28px;
+    margin: 0;
+    margin-bottom: 10px;
+
+}
+
+.add{
+    margin: 0;
+    color: gray;
+    width: 370px;
+}
+
+
+.e9{
+    border: none;
+    border-radius: 7px;
+    padding: 7px;
+    display: inline-block;
+    width: 260px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.312);
+}
+
+.profile-picture{
+    width: 22px;
+    height: 22px;
+    border-radius: 100%;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.post{
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+    border: none;
+    font-size: 10px;
+    padding: 6px 0;
+    padding-right: 45px;
+}
+
+.tweet-button{
+    vertical-align: middle;
+    background-color: skyblue;
+    color: white;
+    padding: 2px 10px;
+    border: none;
+    border-radius: 15px;
+}
