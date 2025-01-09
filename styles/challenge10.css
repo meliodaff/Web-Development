@@ -30,7 +30,7 @@ p{
     height: 17px;
     border-radius: 100%;
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: middle; 
 }
 
 .profile-infos-container{
@@ -40,7 +40,6 @@ p{
 
 .mutual-friends-container{
     display: inline-block;
-    vertical-align: middle;
 
 }
 
