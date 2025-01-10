@@ -1,0 +1,67 @@
+body{
+    padding: 75px;
+}
+
+p{
+    font-family: Roboto;
+    margin: 0;
+}
+
+.video-grid{
+    display: grid;
+    grid-template-columns: 420px 420px;
+    column-gap: 20px;
+    row-gap: 50px;
+}
+
+
+
+
+.thumbnail{
+    width: 420px;
+    height: 250px;
+    object-fit: cover;
+        margin-bottom: 7px;
+}
+
+.title-row{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.author-image{
+    width: 35px;
+    height: 35 px;
+    border-radius: 50px;
+}
+
+.title{
+    font-weight: 500;
+    width: 320px;
+    font-size: 16px;
+    line-height: 25px;
+    text-decoration: none;
+    color: black;
+    transition: text-decoration 5s;
+}
+
+.title:hover{
+    text-decoration: underline;
+}
+
+.author-name, .video-stats{
+    margin-left: 52px;
+    color: rgb(100, 100, 100);
+    font-size: 13px;
+    margin-bottom: 12px;
+}
+
+.author-name{
+    margin-bottom: 6px;
+}
+
+a{
+    text-decoration: none;
+}
