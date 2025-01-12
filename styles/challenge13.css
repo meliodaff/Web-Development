@@ -90,6 +90,7 @@ div{
     border-radius: 25px;
 }
 
+
 .post-header{
     font-weight: bold;
     font-size: 15px;
@@ -106,6 +107,10 @@ div{
     line-height: 21px;
 }
 
+.link-container{
+    width: 330px;
+}
+
 .link-content{
     display: flex;
     box-shadow: 0 0 2px rgba(0, 0, 0, .5);
@@ -114,7 +119,8 @@ div{
 }
 
 .thumbnail{
-    width: 150px;
+    width: 90px;
+    height: 90px;
     background-color: rgba(128, 128, 128, 0.4);
     border-radius: 10px 0 0 10px;
 }
@@ -122,6 +128,7 @@ div{
 .link-description{
     margin-left: 10px;
     padding: 10px 2px;
+    flex: 1;
 }
 
 .url{
@@ -132,4 +139,5 @@ div{
 
 .url-caption{
     line-height: 20px;
+    font-size: 15px;
 }
