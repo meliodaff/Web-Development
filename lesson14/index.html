@@ -7,32 +7,64 @@
     <title>CSS Positioning</title>
 </head>
 <body>
-    <div class="header">
-        <div class="search-bar">
-            <input type="text" placeholder="Search">
+        <!-- <div class="sidebar">
+            right sidebar
+        </div>
+        <div
+        style="background-color: rgba(0, 0, 0, .8);
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        "
+        >
+        <div class="modal">
+            <div class="title">Modal Title</div>
+            <div class="content">This is a modal</div>
+            <button>Close</button>
         </div>
     </div>
-
-    <div class="side-bar">
-        <div class="top-section">top</div>
-        <div class="middle-section">middle</div>
-        <div class="bottom-section">bottom</div>
+    
+    <div class="header">
+        <div class="left-section">
+            <img src="/images/cat.jpg" alt="" class="profile-picture">
+            <div class="name">Oliver Cat</div>
+        </div>
+        <div class="right-section">
+            <button class="add-friend-button">Add Friend</button>
+            <button class="message-friend-button">Message</button>
+        </div>
     </div>
+    -->
 
-
-    <div 
-    style="background-color: lightblue;
-    height: 150px;
-    width: 150px;
-    ">
-        div1
+     <div class="sidebar">  <!-- feel ko hindi na kailangan ng container?? like rekta na sa column ng profile pictures and contents -->
+        <div class="profile-picture-column">
+            <div>
+                <img src="/images/cat.jpg" alt="" class="cat">
+            </div>
+            <div>
+                <img src="/images/cat2.jpg" alt="" class="cat1">
+            </div>
+            <div>
+                <img src="/images/dog.jpg" alt="" class="dog">
+            </div>
+        </div>
+        <div class="content-column">
+            <div class="header">
+                <div class="left-section">INFO</div>
+                <div class="right-section">+</div>
+            </div>
+            <div class="contents">
+                <div class="row1">&#35; new-videos</div>
+                <div class="row2">&#35; updates</div>
+                <div class="row3">&#35; faq</div>
+            </div>
+        </div>
     </div>
-    <div
-    style="background-color: lightpink;
-    height: 150px;
-    width: 150px;
-    ">
-        div2
-    </div>
+    
 </body>
 </html>

@@ -1,31 +1,169 @@
-body{
-    padding-bottom: 1000px;
-    padding-top: 100px;
-    padding-left: 100px;
+
+/* 
+.sidebar{
+    background-color: green;
+    color: white;
+    position: fixed;
+    top:0;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    }
+    
+.modal{
+    background-color: white;
+    padding: 20px 20px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.title{
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 23px;
+
+}
+
+.content{
+    margin-bottom: 15px;
+}
+
+div{
+    font-family: Arial;
+    body{
+    padding-bottom: 3000px;
+    }
+} 
+
+div{
+    font-family: Arial;
 }
 
 .header{
     display: flex;
-    background-color: beige;
-    justify-content: center;
     align-items: center;
+    justify-content: space-between;
     position: fixed;
-    top: 0;
-    right: 0;
     left: 0;
-    height: 100px;
+    right: 0;
+    top: 0;
+    height: 60px;
+    padding: 10px 50px;
 }
 
-.side-bar{
-    background-color: rgb(186, 255, 186);
+
+.left-section{
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+
+
+
+.profile-picture{
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-right: 9px;
+}
+
+.name{
+    font-weight: bold;
+}
+
+
+.right-section{
+    margin-right: 10px;
+}
+
+.add-friend-button, .message-friend-button{
+    border: none;
+    font-weight: bold;
+    padding: 10px 13px;
+    border-radius: 7px;
+}
+
+.add-friend-button{
+    background-color: rgb(10, 182, 239);
+    color: white;
+    margin-right: 5px;
+}
+
+.message-friend-button{
+    background-color: rgb(215, 215, 215);
+    color: black;
+}
+*/
+
+body{
+    height: 3000px
+}
+
+div{
+    font-family: Arial;
+}
+
+.sidebar{
     position: fixed;
     left: 0;
+    top: 0;
     bottom: 0;
-    top: 100px;
-    width: 80px;
+    background-color: black;
+}
+
+img{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+.profile-picture-column{
+    background-color: rgb(33, 33, 33);
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.content-column{
+    background-color: rgb(55, 55, 55);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 78px;
+
+}
+
+.header{
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    flex-shrink: 0;
+    height: 40px;
+}
+
+.left-section{
+    color: white;
+    font-size: 13px;
+}
+
+.right-section{
+    color: white;
+    font-size: 21px;
+}
+
+.left-section, .right-section{
+    margin: 13px;
+}
+
+.contents{
+    margin-left: 10px;
+    line-height: 35px;
+    font-size: 14px;
 }
