@@ -105,12 +105,14 @@ div{
     font-family: Arial;
 }
 
-.sidebar{
+.sidebar1{
     position: fixed;
-    left: 0;
+    background-color: rgb(33, 33, 33);
     top: 0;
+    left: 0;
     bottom: 0;
-    background-color: black;
+    padding: 10px;
+    padding-top: 15px;
 }
 
 img{
@@ -118,52 +120,45 @@ img{
     width: 50px;
     object-fit: cover;
     border-radius: 25px;
-    margin-bottom: 10px;
+    margin-bottom: 4px;
 }
 
-.profile-picture-column{
-    background-color: rgb(33, 33, 33);
-  position: fixed;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.content-column{
-    background-color: rgb(55, 55, 55);
+.sidebar2{
     position: fixed;
     top: 0;
     bottom: 0;
-    left: 78px;
-
+    left: 70px;
+    width: 180px;
+    background-color: rgb(55, 55, 55);
 }
 
 .header{
     display: flex;
+    padding: 10px;
     justify-content: space-between;
+    padding: 15px 20px 0px 20px;
     align-items: center;
-    height: 40px;
 }
 
-.left-section{
-    color: white;
-    font-size: 13px;
-}
-
-.right-section{
-    color: white;
-    font-size: 21px;
-}
-
-.left-section, .right-section{
-    margin: 13px;
-}
-
-.contents{
-    margin-left: 10px;
-    line-height: 35px;
+.info{
+    color: white; 
     font-size: 14px;
+}
+
+.plus-sign{
+    color: rgb(150, 150, 150);
+    font-size: 25px;
+}
+
+
+.row{
+    display: flex;
+    font-size: 14px;
+    line-height: 33px;
+    padding-left: 20px;
+    color: rgb(150, 150, 150);
+}
+
+.hash{
+    margin-right: 6px;
 }
